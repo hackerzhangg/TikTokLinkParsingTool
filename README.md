@@ -1,0 +1,2 @@
+# TikTokLinkParsingTool
+ParsingTool
