@@ -1,0 +1,11 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tiktoklinkparsingtool.mapper.LinkParsingMapper">
+
+    <!--添加用户直播链接解析记录-->
+    <insert id="sageLinkParsing">
+        insert into link (url,time ) values (#{url},#{time})
+    </insert>
+
+</mapper>
